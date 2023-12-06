@@ -15,4 +15,12 @@ ___
 * `git remote -v` to see server added or not(بيجيب ال RemoteName)
 ___
 
+### Configurations
+* `git config -l` بيجيب ال list الخاصه بال configuration 
+* `git config --global user.email` لو عاوز اجيب value specific زي ال email
+* `git config --global user.email` **اكتب الميل**
+* `git config --global --unset` **الي عايز احزفه**
+* `git config --global --edit`  عشان نعمل edit بال editor 
+* **touch <اسم الملف>.extension** => عشان اعمل فايل جديد في البروجيكت 
+* `touch new_file.text` 
 
