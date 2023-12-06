@@ -24,3 +24,18 @@ ___
 * **touch <اسم الملف>.extension** => عشان اعمل فايل جديد في البروجيكت 
 * `touch new_file.text` 
 
+___
+#### create project and upload to github
+* `cd Documents`
+* `mkdir` => <**name**>
+* `cd` => <**name**>
+* **create file for ex : `touch index.html`**
+* `git status`
+* `git add` index.html
+* `git commit -m` "any text"
+___
+#### upload to git
+* `git remote add origin` <**repo link**> بحط لنك الريبو الي عملته على github 
+* `git push -u origin main`
+**وظيفة الu انها تسحب التعديل الي حصل على الفايل وبعدها ارفع التعديل بتاعي**
+
