@@ -15,7 +15,7 @@ ___
 * `git remote -v` to see server added or not(بيجيب ال RemoteName)
 ___
 
-### Configurations
+## Configurations
 * `git config -l` بيجيب ال list الخاصه بال configuration 
 * `git config --global user.email` لو عاوز اجيب value specific زي ال email
 * `git config --global user.email` **اكتب الميل**
@@ -25,7 +25,7 @@ ___
 * `touch new_file.text` 
 
 ___
-#### create project and upload to github
+## create project and upload to github
 * `cd Documents`
 * `mkdir` => <**name**>
 * `cd` => <**name**>
@@ -34,7 +34,7 @@ ___
 * `git add` index.html
 * `git commit -m` "any text"
 ___
-#### upload to git
+## upload to git
 * `git remote add origin` <**repo link**> بحط لنك الريبو الي عملته على github 
 * `git push -u origin main`
 **وظيفة الu انها تسحب التعديل الي حصل على الفايل وبعدها ارفع التعديل بتاعي**
